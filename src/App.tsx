@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="h-full flex flex-col justify-center items-center gap-2">
       <Avatar>
-        <AvatarImage src="https://github.com/shadcn.png" />
+        <AvatarImage alt='user-avatar-image' src="https://github.com/shadcn.png" />
         <AvatarFallback>CN</AvatarFallback>
       </Avatar>
       <Button onClick={() => setCount((count) => count + 1)}>
